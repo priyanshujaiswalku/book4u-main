@@ -1,0 +1,30 @@
+.container {
+  background-color: rgb(204, 32, 98);
+  border: 1px solid rgb(204, 32, 98);
+  border-radius: 0.75rem;
+  height: 1.5rem;
+  width: 2rem;
+  margin-left: 0.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: filter 0.2s ease-out;
+}
+
+.container--inactive {
+  filter: grayscale(1);
+  cursor: unset;
+}
+
+.container__icon {
+  fill: #fff;
+  color: white;
+  transition: transform 0.2s ease-out;
+}
+
+.container:not([disabled]) .container__icon:hover,
+.container:not([disabled]) .container__icon:active,
+.container:not([disabled]) .container__icon:focus {
+  transform: scale(0.75, 0.75);
+}
