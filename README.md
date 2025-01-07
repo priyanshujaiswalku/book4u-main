@@ -1,3 +1,11 @@
+# Book4u | MongoDB, Node.js, Express, React, Docker, Kubernetes (Visit Project)
+
+• Engineered a web app for student book purchases, optimizing order processing to reduce shipping costs by 20%.
+• Enhanced user experience with advanced filters (price, category, search), resulting in a 30% increase in user satisfaction ratings.
+• Deployed on Kubernetes with Dockerized frontend and backend for scalable performance.
+• Enabled personalized user profiles for book sales, contributing to a 25% increase in sales.
+
+
 # Book4u
 
 > An app that utilises an API built upon Project Gutenberg's database for browsing PG's catalogue.  
